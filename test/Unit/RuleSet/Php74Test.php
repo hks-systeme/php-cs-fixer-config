@@ -269,7 +269,9 @@ final class Php74Test extends AbstractRuleSetTestCase
         'no_useless_else' => true,
         'no_useless_return' => true,
         'no_useless_sprintf' => true,
-        'no_whitespace_before_comma_in_array' => true,
+        'no_whitespace_before_comma_in_array' => [
+            'after_heredoc' => true,
+        ],
         'no_whitespace_in_blank_line' => true,
         'non_printable_character' => true,
         'normalize_index_brace' => true,
