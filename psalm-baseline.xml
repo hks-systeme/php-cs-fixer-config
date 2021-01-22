@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.4.1@9fd7a7d885b3a216cff8dec9d8c21a132f275224">
+  <file src="test/Unit/RuleSet/AbstractRuleSetTestCase.php">
+    <InternalClass occurrences="1">
+      <code>FixerFactory::create()</code>
+    </InternalClass>
+    <InternalMethod occurrences="3">
+      <code>FixerFactory::create()</code>
+      <code>getFixers</code>
+      <code>registerBuiltInFixers</code>
+    </InternalMethod>
+  </file>
+  <file src="test/Unit/RuleSet/ExplicitRuleSetTestCase.php">
+    <MissingClosureReturnType occurrences="1">
+      <code>static function (FixerConfiguration\FixerOptionInterface $fixerOption) {</code>
+    </MissingClosureReturnType>
+  </file>
+</files>
