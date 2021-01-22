@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace HKS\PhpCsFixer\Config\Test\Unit;
 
-use HKS\PhpCsFixer\Config;
 use Ergebnis\Test\Util;
+use HKS\PhpCsFixer\Config;
 use PHPUnit\Framework;
 
 /**
