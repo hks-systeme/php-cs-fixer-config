@@ -16,11 +16,13 @@ For a full diff see [`3a0205c...main`][3a0205c...main].
 ### Changed
 
 * Configured `no_whitespace_before_comma_in_array` fixer to remove whitespace between heredoc and comma ([#5]), by [@localheinz]
+* Configured `trailing_comma_in_multiline_array` fixer to add a trailing comma after heredoc in multi-line array ([#6]), by [@localheinz]
 
 [3a0205c...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
 [#5]: https://github.com/hks-systeme/php-cs-fixer-config/pull/5
+[#6]: https://github.com/hks-systeme/php-cs-fixer-config/pull/6
 
 [@localheinz]: https://github.com/localheinz
