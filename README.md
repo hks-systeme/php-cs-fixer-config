@@ -28,6 +28,10 @@ $ composer require --dev hks-systeme/php-cs-fixer-config
 Pick one of the rule sets:
 
 * [`HKS\PhpCsFixer\RuleSet\Custom`](src/RuleSet/Custom.php)
+* [`HKS\PhpCsFixer\RuleSet\Php71`](src/RuleSet/Php71.php)
+* [`HKS\PhpCsFixer\RuleSet\Php72`](src/RuleSet/Php72.php)
+* [`HKS\PhpCsFixer\RuleSet\Php73`](src/RuleSet/Php73.php)
+* [`HKS\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
 
 Create a configuration file `.php_cs` in the root of your project:
 
