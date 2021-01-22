@@ -10,10 +10,12 @@ For a full diff see [`3a0205c...main`][3a0205c...main].
 
 ### Added
 
+* Added `Php80` ([#4]), by [@localheinz]
 * Added `Php71`, `Php72`, `Php73`, and `Php74` ([#1]), by [@localheinz]
 
 [3a0205c...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
+[#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/2
 
 [@localheinz]: https://github.com/localheinz
