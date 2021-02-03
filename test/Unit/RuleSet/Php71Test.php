@@ -74,7 +74,7 @@ final class Php71Test extends AbstractRuleSetTestCase
         'cast_spaces' => true,
         'class_attributes_separation' => [
             'elements' => [
-                'method',
+                'method' => 'one',
             ],
         ],
         'class_definition' => [

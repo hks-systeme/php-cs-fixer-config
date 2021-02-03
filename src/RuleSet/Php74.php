@@ -68,7 +68,7 @@ final class Php74 extends AbstractRuleSet
         'cast_spaces' => true,
         'class_attributes_separation' => [
             'elements' => [
-                'method',
+                'method' => 'one',
             ],
         ],
         'class_definition' => [

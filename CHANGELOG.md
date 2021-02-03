@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`1.0.0...1.0.0`][1.0.0...main].
 
+### Fixed
+
+* Stopped using deprecated configuration for `class_attributes_separation` fixer ([#15]), by [@localheinz]
+
 ## [`1.0.0`][1.0.0]
 
 For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
@@ -31,5 +35,6 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
 [#5]: https://github.com/hks-systeme/php-cs-fixer-config/pull/5
 [#6]: https://github.com/hks-systeme/php-cs-fixer-config/pull/6
+[#15]: https://github.com/hks-systeme/php-cs-fixer-config/pull/15
 
 [@localheinz]: https://github.com/localheinz
