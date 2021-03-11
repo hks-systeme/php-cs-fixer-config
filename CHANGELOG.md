@@ -6,11 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.0.0...1.0.0`][1.0.0...main].
+For a full diff see [`1.0.1...main`][1.0.1...main].
+
+## [`1.0.1`][1.0.1]
+
+For a full diff see [`1.0.0...1.0.1`][1.0.0...1.0.1].
 
 ### Fixed
 
 * Stopped using deprecated configuration for `class_attributes_separation` fixer ([#15]), by [@localheinz]
+* Updated `friendsofphp/php-cs-fixer` ([#41]), by [@dependabot]
 
 ## [`1.0.0`][1.0.0]
 
@@ -27,14 +32,18 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 * Configured `trailing_comma_in_multiline_array` fixer to add a trailing comma after heredoc in multi-line array ([#6]), by [@localheinz]
 
 [1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.0
+[1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.1
 
 [3a0205c...1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...1.0.0
-[1.0.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...main
+[1.0.0...1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...1.0.1
+[1.0.1...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.1...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
 [#5]: https://github.com/hks-systeme/php-cs-fixer-config/pull/5
 [#6]: https://github.com/hks-systeme/php-cs-fixer-config/pull/6
 [#15]: https://github.com/hks-systeme/php-cs-fixer-config/pull/15
+[#41]: https://github.com/hks-systeme/php-cs-fixer-config/pull/41
 
+[@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
