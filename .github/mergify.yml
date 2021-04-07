@@ -1,0 +1,45 @@
+# https://docs.mergify.io
+pull_request_rules:
+  - name: "Merge pull requests created by dependabot updating composer development dependencies"
+    conditions:
+      - "author=dependabot[bot]"
+      - "check-success=Code Coverage (7.3, locked)"
+      - "check-success=Coding Standards (7.3, locked)"
+      - "check-success=Dependency Analysis (7.3, locked)"
+      - "check-success=Mutation Tests (7.3, locked)"
+      - "check-success=Static Code Analysis (7.3, locked)"
+      - "check-success=Tests (7.3, highest)"
+      - "check-success=Tests (7.3, locked)"
+      - "check-success=Tests (7.3, lowest)"
+      - "check-success=Tests (7.4, highest)"
+      - "check-success=Tests (7.4, locked)"
+      - "check-success=Tests (7.4, lowest)"
+      - "check-success=Tests (8.0, highest)"
+      - "check-success=Tests (8.0, locked)"
+      - "check-success=Tests (8.0, lowest)"
+      - "title~=^composer\\(deps-dev\\):"
+    actions:
+      merge:
+        method: "merge"
+
+  - name: "Merge pull requests created by dependabot updating GitHub Actions"
+    conditions:
+      - "author=dependabot[bot]"
+      - "check-success=Code Coverage (7.3, locked)"
+      - "check-success=Coding Standards (7.3, locked)"
+      - "check-success=Dependency Analysis (7.3, locked)"
+      - "check-success=Mutation Tests (7.3, locked)"
+      - "check-success=Static Code Analysis (7.3, locked)"
+      - "check-success=Tests (7.3, highest)"
+      - "check-success=Tests (7.3, locked)"
+      - "check-success=Tests (7.3, lowest)"
+      - "check-success=Tests (7.4, highest)"
+      - "check-success=Tests (7.4, locked)"
+      - "check-success=Tests (7.4, lowest)"
+      - "check-success=Tests (8.0, highest)"
+      - "check-success=Tests (8.0, locked)"
+      - "check-success=Tests (8.0, lowest)"
+      - "title~=^github-actions\\(deps\\):"
+    actions:
+      merge:
+        method: "merge"
