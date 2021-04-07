@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.0.1...main`][1.0.1...main].
+For a full diff see [`1.0.2...main`][1.0.2...main].
+
+## [`1.0.2`][1.0.2]
+
+For a full diff see [`1.0.1...1.0.2`][1.0.1...1.0.2].
+
+### Fixed
+
+* Updated `friendsofphp/php-cs-fixer` ([#51]), by [@dependabot]
 
 ## [`1.0.1`][1.0.1]
 
@@ -33,10 +41,12 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 
 [1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.0
 [1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.1
+[1.0.2]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.2
 
 [3a0205c...1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...1.0.0
 [1.0.0...1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...1.0.1
-[1.0.1...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.1...main
+[1.0.1...1.0.2]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.1...1.0.2
+[1.0.2...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.2...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
@@ -44,6 +54,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#6]: https://github.com/hks-systeme/php-cs-fixer-config/pull/6
 [#15]: https://github.com/hks-systeme/php-cs-fixer-config/pull/15
 [#41]: https://github.com/hks-systeme/php-cs-fixer-config/pull/41
+[#51]: https://github.com/hks-systeme/php-cs-fixer-config/pull/51
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
