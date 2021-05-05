@@ -19,7 +19,7 @@ namespace HKS\PhpCsFixer\Config\Test\Unit\RuleSet;
  * @covers \HKS\PhpCsFixer\Config\RuleSet\AbstractRuleSet
  * @covers \HKS\PhpCsFixer\Config\RuleSet\Php72
  */
-final class Php72Test extends AbstractRuleSetTestCase
+final class Php72Test extends ExplicitRuleSetTestCase
 {
     protected $name = 'hks (PHP 7.2)';
 
