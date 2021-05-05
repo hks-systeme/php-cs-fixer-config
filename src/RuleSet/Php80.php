@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace HKS\PhpCsFixer\Config\RuleSet;
 
-final class Php80 extends AbstractRuleSet
+final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
 {
     protected $name = 'hks (PHP 8.0)';
 
