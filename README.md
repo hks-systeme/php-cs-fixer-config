@@ -43,7 +43,7 @@ use HKS\PhpCsFixer\Config;
 $config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74());
 
 $config->getFinder()->in(__DIR__);
-$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php_cs.cache');
+$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
 
 return $config;
 ```
@@ -81,7 +81,7 @@ All configuration examples use the caching feature, and if you want to use it as
 +$config = Config\Factory::fromRuleSet(new Config\RuleSet\Php74($header));
 
  $config->getFinder()->in(__DIR__);
- $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php_cs.cache');
+ $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
 
  return $config;
 ```
@@ -118,7 +118,7 @@ file headers will be added to PHP files, for example:
 +]);
 
  $config->getFinder()->in(__DIR__);
- $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/php_cs.cache');
+ $config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
 
  return $config;
 ```
