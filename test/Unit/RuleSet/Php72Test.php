@@ -77,6 +77,8 @@ final class Php72Test extends ExplicitRuleSetTestCase
             ],
         ],
         'class_definition' => [
+            'multi_line_extends_each_single_line' => false,
+            'single_item_single_line' => false,
             'single_line' => true,
         ],
         'class_keyword_remove' => false,
