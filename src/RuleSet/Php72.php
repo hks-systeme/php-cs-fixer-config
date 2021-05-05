@@ -543,6 +543,7 @@ final class Php72 extends AbstractRuleSet
         'ternary_to_elvis_operator' => true,
         'ternary_to_null_coalescing' => true,
         'trailing_comma_in_multiline' => [
+            'after_heredoc' => false,
             'elements' => [
                 'arrays',
             ],
