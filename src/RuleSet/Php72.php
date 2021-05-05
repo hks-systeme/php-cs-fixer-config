@@ -186,6 +186,7 @@ final class Php72 extends AbstractRuleSet
             'strategy' => 'no_multi_line',
         ],
         'native_constant_invocation' => [
+            'exclude' => [],
             'fix_built_in' => false,
             'include' => [
                 'DIRECTORY_SEPARATOR',

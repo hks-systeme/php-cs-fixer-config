@@ -192,6 +192,7 @@ final class Php73Test extends ExplicitRuleSetTestCase
             'strategy' => 'no_multi_line',
         ],
         'native_constant_invocation' => [
+            'exclude' => [],
             'fix_built_in' => false,
             'include' => [
                 'DIRECTORY_SEPARATOR',
