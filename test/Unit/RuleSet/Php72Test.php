@@ -45,7 +45,6 @@ final class Php72Test extends AbstractRuleSetTestCase
                 'continue',
                 'declare',
                 'default',
-                'die',
                 'do',
                 'exit',
                 'for',
