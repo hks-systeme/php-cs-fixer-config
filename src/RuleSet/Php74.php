@@ -191,9 +191,14 @@ final class Php74 extends AbstractRuleSet
                 'PHP_VERSION_ID',
             ],
             'scope' => 'namespaced',
+            'strict' => false,
         ],
         'native_function_casing' => true,
-        'native_function_invocation' => true,
+        'native_function_invocation' => [
+            'include' => [
+                '@internal',
+            ],
+        ],
         'native_function_type_declaration_casing' => true,
         'new_with_braces' => true,
         'no_alias_functions' => true,
