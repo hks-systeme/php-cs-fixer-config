@@ -318,7 +318,7 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
 
         \ksort($data);
 
-        return \array_combine(
+        $sorted = \array_combine(
             \array_keys($data),
             \array_map(static function ($item) {
                 if (!\is_array($item)) {
@@ -328,5 +328,11 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
                 return self::sort($item);
             }, $data)
         );
+
+        if (!\is_array($sorted)) {
+            throw new \RuntimeException('This should not happen.');
+        }
+
+        return $sorted;
     }
 }
