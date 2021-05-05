@@ -830,6 +830,7 @@ final class Php73Test extends ExplicitRuleSetTestCase
         'trailing_comma_in_multiline' => [
             'after_heredoc' => true,
             'elements' => [
+                'arguments',
                 'arrays',
             ],
         ],

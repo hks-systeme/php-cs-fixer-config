@@ -824,6 +824,7 @@ final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
         'trailing_comma_in_multiline' => [
             'after_heredoc' => true,
             'elements' => [
+                'arguments',
                 'arrays',
             ],
         ],
