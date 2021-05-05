@@ -536,7 +536,11 @@ final class Php72Test extends AbstractRuleSetTestCase
         'ternary_operator_spaces' => true,
         'ternary_to_elvis_operator' => true,
         'ternary_to_null_coalescing' => true,
-        'trailing_comma_in_multiline_array' => true,
+        'trailing_comma_in_multiline' => [
+            'elements' => [
+                'arrays',
+            ],
+        ],
         'trim_array_spaces' => true,
         'unary_operator_spaces' => true,
         'use_arrow_functions' => false,

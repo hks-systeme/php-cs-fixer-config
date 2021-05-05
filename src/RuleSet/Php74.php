@@ -532,8 +532,11 @@ final class Php74 extends AbstractRuleSet
         'ternary_operator_spaces' => true,
         'ternary_to_elvis_operator' => true,
         'ternary_to_null_coalescing' => true,
-        'trailing_comma_in_multiline_array' => [
+        'trailing_comma_in_multiline' => [
             'after_heredoc' => true,
+            'elements' => [
+                'arrays',
+            ],
         ],
         'trim_array_spaces' => true,
         'unary_operator_spaces' => true,
