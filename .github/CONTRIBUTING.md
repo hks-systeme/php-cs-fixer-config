@@ -7,7 +7,6 @@ For details, take a look at the following workflow configuration files:
 - [`workflows/integrate.yaml`](workflows/integrate.yaml)
 - [`workflows/prune.yaml`](workflows/prune.yaml)
 - [`workflows/release.yaml`](workflows/release.yaml)
-- [`workflows/renew.yaml`](workflows/renew.yaml)
 - [`workflows/triage.yaml`](workflows/triage.yaml)
 
 ## Coding Standards
