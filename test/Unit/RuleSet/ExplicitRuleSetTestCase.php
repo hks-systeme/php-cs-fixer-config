@@ -64,6 +64,10 @@ abstract class ExplicitRuleSetTestCase extends AbstractRuleSetTestCase
             )
         );
 
+        if (!\is_array($rulesThatAreNotDeprecated)) {
+            throw new \RuntimeException('This should not happen.');
+        }
+
         $rulesWithRulesThatAreNotDeprecated = \array_merge(
             $rulesThatAreNotDeprecated,
             $rules
@@ -106,15 +110,21 @@ abstract class ExplicitRuleSetTestCase extends AbstractRuleSetTestCase
                     return !$fixerOption instanceof FixerConfiguration\DeprecatedFixerOptionInterface;
                 });
 
+                $ruleConfigurationWithNonDeprecatedConfigurationOptions = \array_combine(
+                    \array_map(static function (FixerConfiguration\FixerOptionInterface $fixerOption): string {
+                        return $fixerOption->getName();
+                    }, $nonDeprecatedConfigurationOptions),
+                    \array_map(static function (FixerConfiguration\FixerOptionInterface $fixerOption) {
+                        return $fixerOption->getDefault();
+                    }, $nonDeprecatedConfigurationOptions)
+                );
+
+                if (!\is_array($ruleConfigurationWithNonDeprecatedConfigurationOptions)) {
+                    throw new \RuntimeException('This should not happen.');
+                }
+
                 $diff = \array_diff_key(
-                    \array_combine(
-                        \array_map(static function (FixerConfiguration\FixerOptionInterface $fixerOption): string {
-                            return $fixerOption->getName();
-                        }, $nonDeprecatedConfigurationOptions),
-                        \array_map(static function (FixerConfiguration\FixerOptionInterface $fixerOption) {
-                            return $fixerOption->getDefault();
-                        }, $nonDeprecatedConfigurationOptions)
-                    ),
+                    $ruleConfigurationWithNonDeprecatedConfigurationOptions,
                     $ruleConfiguration
                 );
 
