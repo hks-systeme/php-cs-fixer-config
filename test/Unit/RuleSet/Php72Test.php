@@ -197,6 +197,7 @@ final class Php72Test extends AbstractRuleSetTestCase
                 'PHP_VERSION_ID',
             ],
             'scope' => 'namespaced',
+            'strict' => false,
         ],
         'native_function_casing' => true,
         'native_function_invocation' => [

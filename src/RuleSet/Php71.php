@@ -191,6 +191,7 @@ final class Php71 extends AbstractRuleSet
                 'PHP_VERSION_ID',
             ],
             'scope' => 'namespaced',
+            'strict' => false,
         ],
         'native_function_casing' => true,
         'native_function_invocation' => [
