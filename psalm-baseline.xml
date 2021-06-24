@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.7.2@83a0325c0a95c0ab531d6b90c877068b464377b5">
+<files psalm-version="4.8.1@f73f2299dbc59a3e6c4d66cff4605176e728ee69">
   <file src="test/Unit/RuleSet/AbstractRuleSetTestCase.php">
     <InternalClass occurrences="1">
       <code>new FixerFactory()</code>
     </InternalClass>
-    <InternalMethod occurrences="2">
+    <InternalMethod occurrences="3">
       <code>getFixers</code>
+      <code>new FixerFactory()</code>
       <code>registerBuiltInFixers</code>
     </InternalMethod>
   </file>
