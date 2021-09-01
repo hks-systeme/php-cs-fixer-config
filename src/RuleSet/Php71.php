@@ -88,7 +88,7 @@ final class Php71 extends AbstractRuleSet implements ExplicitRuleSet
         'constant_case' => true,
         'date_time_immutable' => false,
         'declare_equal_normalize' => true,
-        'declare_parentheses' => false,
+        'declare_parentheses' => true,
         'declare_strict_types' => true,
         'dir_constant' => true,
         'doctrine_annotation_array_assignment' => [
