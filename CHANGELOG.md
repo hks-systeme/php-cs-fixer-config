@@ -13,6 +13,7 @@ For a full diff see [`2.0.0...main`][2.0.0...main].
 * Updated `friendsofphp/php-cs-fixer` ([#121]), by [@dependabot]
 * Enabled `declare_parentheses` fixer ([#125]), by [@localheinz]
 * Enabled and configured `empty_loop_body` fixer ([#126]), by [@localheinz]
+* Enabled and configured `types_spaces` fixer ([#127]), by [@localheinz]
 
 ## [`2.0.0`][2.0.0]
 
@@ -101,6 +102,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#121]: https://github.com/hks-systeme/php-cs-fixer-config/pull/121
 [#125]: https://github.com/hks-systeme/php-cs-fixer-config/pull/125
 [#126]: https://github.com/hks-systeme/php-cs-fixer-config/pull/126
+[#127]: https://github.com/hks-systeme/php-cs-fixer-config/pull/127
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
