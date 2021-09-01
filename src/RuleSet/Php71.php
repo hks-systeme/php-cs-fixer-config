@@ -16,7 +16,6 @@ namespace HKS\PhpCsFixer\Config\RuleSet;
 final class Php71 extends AbstractRuleSet implements ExplicitRuleSet
 {
     protected $name = 'hks (PHP 7.1)';
-
     protected $rules = [
         'align_multiline_comment' => [
             'comment_type' => 'all_multiline',
@@ -67,7 +66,9 @@ final class Php71 extends AbstractRuleSet implements ExplicitRuleSet
         'cast_spaces' => true,
         'class_attributes_separation' => [
             'elements' => [
+                'const' => 'only_if_meta',
                 'method' => 'one',
+                'property' => 'only_if_meta',
             ],
         ],
         'class_definition' => [
@@ -573,6 +574,5 @@ final class Php71 extends AbstractRuleSet implements ExplicitRuleSet
         'whitespace_after_comma_in_array' => true,
         'yoda_style' => false,
     ];
-
     protected $targetPhpVersion = 70100;
 }
