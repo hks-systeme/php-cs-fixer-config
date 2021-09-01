@@ -81,7 +81,6 @@ final class Php73Test extends ExplicitRuleSetTestCase
             'single_item_single_line' => false,
             'single_line' => true,
         ],
-        'class_keyword_remove' => false,
         'clean_namespace' => true,
         'combine_consecutive_issets' => true,
         'combine_consecutive_unsets' => true,
