@@ -75,6 +75,7 @@ final class Php71Test extends ExplicitRuleSetTestCase
                 'const' => 'only_if_meta',
                 'method' => 'one',
                 'property' => 'only_if_meta',
+                'trait_import' => 'none',
             ],
         ],
         'class_definition' => [
