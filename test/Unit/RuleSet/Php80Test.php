@@ -75,7 +75,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
                 'const' => 'only_if_meta',
                 'method' => 'one',
                 'property' => 'only_if_meta',
-                'trait_import' => 'none',
+                'trait_import' => 'only_if_meta',
             ],
         ],
         'class_definition' => [
