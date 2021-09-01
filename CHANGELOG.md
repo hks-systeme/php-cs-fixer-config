@@ -16,6 +16,7 @@ For a full diff see [`2.0.0...main`][2.0.0...main].
 * Enabled and configured `types_spaces` fixer ([#127]), by [@localheinz]
 * Configured `class_attributes_separation` fixer to use newly added `only_if_meta` option for elements `const` and `property` ([#128]), by [@localheinz]
 * Configured `class_attributes_separation` fixer to use `none` option for element `trait_import` ([#129]), by [@localheinz]
+* Added `template` to `ignored_tags` configuration of `doctrine_*` fixers ([#130]), by [@localheinz]
 
 ## [`2.0.0`][2.0.0]
 
@@ -107,6 +108,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#127]: https://github.com/hks-systeme/php-cs-fixer-config/pull/127
 [#128]: https://github.com/hks-systeme/php-cs-fixer-config/pull/128
 [#129]: https://github.com/hks-systeme/php-cs-fixer-config/pull/129
+[#130]: https://github.com/hks-systeme/php-cs-fixer-config/pull/130
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz

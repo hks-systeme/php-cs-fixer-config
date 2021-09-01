@@ -101,6 +101,7 @@ abstract class AbstractRuleSetTestCase extends Framework\TestCase
         'staticVar',
         'subpackage',
         'SuppressWarnings',
+        'template',
         'test',
         'testdox',
         'throw',

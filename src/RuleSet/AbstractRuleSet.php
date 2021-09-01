@@ -105,6 +105,7 @@ abstract class AbstractRuleSet implements RuleSet
         'staticVar',
         'subpackage',
         'SuppressWarnings',
+        'template',
         'test',
         'testdox',
         'throw',
