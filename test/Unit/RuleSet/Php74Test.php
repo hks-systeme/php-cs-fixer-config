@@ -22,7 +22,6 @@ namespace HKS\PhpCsFixer\Config\Test\Unit\RuleSet;
 final class Php74Test extends ExplicitRuleSetTestCase
 {
     protected $name = 'hks (PHP 7.4)';
-
     protected $rules = [
         'align_multiline_comment' => [
             'comment_type' => 'all_multiline',
@@ -584,6 +583,5 @@ final class Php74Test extends ExplicitRuleSetTestCase
         'whitespace_after_comma_in_array' => true,
         'yoda_style' => false,
     ];
-
     protected $targetPhpVersion = 70400;
 }

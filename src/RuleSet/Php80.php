@@ -16,7 +16,6 @@ namespace HKS\PhpCsFixer\Config\RuleSet;
 final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
 {
     protected $name = 'hks (PHP 8.0)';
-
     protected $rules = [
         'align_multiline_comment' => [
             'comment_type' => 'all_multiline',
@@ -579,6 +578,5 @@ final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
         'whitespace_after_comma_in_array' => true,
         'yoda_style' => false,
     ];
-
     protected $targetPhpVersion = 80000;
 }
