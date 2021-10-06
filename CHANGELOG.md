@@ -16,6 +16,7 @@ For a full diff see [`2.2.0...main`][2.2.0...main].
 * Enabled and configured `empty_loop_condition` fixer ([#142]), by [@localheinz]
 * Enabled `integer_literal_case` fixer ([#143]), by [@localheinz]
 * Enabled `modernize_strpos` fixer for `Php80` rule set ([#144]), by [@localheinz]
+* Enabled `no_space_around_double_colon` fixer ([#145]), by [@localheinz]
 
 ### Fixed
 
@@ -148,6 +149,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#142]: https://github.com/hks-systeme/php-cs-fixer-config/pull/142
 [#143]: https://github.com/hks-systeme/php-cs-fixer-config/pull/143
 [#144]: https://github.com/hks-systeme/php-cs-fixer-config/pull/144
+[#145]: https://github.com/hks-systeme/php-cs-fixer-config/pull/145
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
