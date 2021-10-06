@@ -578,7 +578,6 @@ final class Php74 extends AbstractRuleSet implements ExplicitRuleSet
             'elements' => [
                 'arguments',
                 'arrays',
-                'parameters',
             ],
         ],
         'trim_array_spaces' => true,

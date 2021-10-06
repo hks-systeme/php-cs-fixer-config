@@ -584,7 +584,6 @@ final class Php74Test extends ExplicitRuleSetTestCase
             'elements' => [
                 'arguments',
                 'arrays',
-                'parameters',
             ],
         ],
         'trim_array_spaces' => true,
