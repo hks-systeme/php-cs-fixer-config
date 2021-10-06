@@ -96,7 +96,9 @@ final class Php72Test extends ExplicitRuleSetTestCase
         'concat_space' => [
             'spacing' => 'one',
         ],
-        'constant_case' => true,
+        'constant_case' => [
+            'case' => 'lower',
+        ],
         'control_structure_continuation_position' => [
             'position' => 'same_line',
         ],
