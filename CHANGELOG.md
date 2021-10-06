@@ -13,6 +13,7 @@ For a full diff see [`2.2.0...main`][2.2.0...main].
 * Updated `friendsofphp/php-cs-fixer` ([#138]), by [@dependabot]
 * Enabled `assign_null_coalescing_to_coalesce_equal` fixer in `Php74` and `Php80` rule sets ([#140]), by [@localheinz]
 * Enabled and configured `control_structure_continuation_position` fixer ([#141]), by [@localheinz]
+* Enabled and configured `empty_loop_condition` fixer ([#142]), by [@localheinz]
 
 ### Fixed
 
@@ -142,6 +143,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#139]: https://github.com/hks-systeme/php-cs-fixer-config/pull/139
 [#140]: https://github.com/hks-systeme/php-cs-fixer-config/pull/140
 [#141]: https://github.com/hks-systeme/php-cs-fixer-config/pull/141
+[#142]: https://github.com/hks-systeme/php-cs-fixer-config/pull/142
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
