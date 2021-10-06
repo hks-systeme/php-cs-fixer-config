@@ -70,7 +70,9 @@ final class Php72Test extends ExplicitRuleSetTestCase
             'position_after_control_structures' => 'same',
             'position_after_functions_and_oop_constructs' => 'next',
         ],
-        'cast_spaces' => true,
+        'cast_spaces' => [
+            'space' => 'single',
+        ],
         'class_attributes_separation' => [
             'elements' => [
                 'const' => 'only_if_meta',
