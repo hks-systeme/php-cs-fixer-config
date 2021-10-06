@@ -565,7 +565,7 @@ final class Php71Test extends ExplicitRuleSetTestCase
         'static_lambda' => true,
         'strict_comparison' => false,
         'strict_param' => false,
-        'string_length_to_empty' => false,
+        'string_length_to_empty' => true,
         'string_line_ending' => true,
         'switch_case_semicolon_to_colon' => true,
         'switch_case_space' => true,
