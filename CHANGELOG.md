@@ -22,6 +22,7 @@ For a full diff see [`2.2.0...main`][2.2.0...main].
 ### Fixed
 
 * Stopped using deprecated `use_trait` option for `no_extra_blank_lines` fixer ([#139]), by [@localheinz]
+* Explicitly configured `cast_spaces` fixer ([#147]), by [@localheinz]
 
 ## [`2.2.0`][2.2.0]
 
@@ -152,6 +153,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#144]: https://github.com/hks-systeme/php-cs-fixer-config/pull/144
 [#145]: https://github.com/hks-systeme/php-cs-fixer-config/pull/145
 [#146]: https://github.com/hks-systeme/php-cs-fixer-config/pull/146
+[#147]: https://github.com/hks-systeme/php-cs-fixer-config/pull/147
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
