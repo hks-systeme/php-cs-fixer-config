@@ -141,7 +141,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#138]: https://github.com/hks-systeme/php-cs-fixer-config/pull/138
 [#139]: https://github.com/hks-systeme/php-cs-fixer-config/pull/139
 [#140]: https://github.com/hks-systeme/php-cs-fixer-config/pull/140
-[#141]: https://github.com/hks-systeme/php-cs-fixer-config/pull/140
+[#141]: https://github.com/hks-systeme/php-cs-fixer-config/pull/141
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
