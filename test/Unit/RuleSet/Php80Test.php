@@ -95,7 +95,9 @@ final class Php80Test extends ExplicitRuleSetTestCase
             'spacing' => 'one',
         ],
         'constant_case' => true,
-        'control_structure_continuation_position' => false,
+        'control_structure_continuation_position' => [
+            'position' => 'same_line',
+        ],
         'date_time_immutable' => false,
         'declare_equal_normalize' => true,
         'declare_parentheses' => true,
