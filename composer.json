@@ -20,7 +20,7 @@
     "ergebnis/test-util": "^1.5.0",
     "phpunit/phpunit": "^8.5.21",
     "psalm/plugin-phpunit": "~0.16.1",
-    "vimeo/psalm": "^4.11.2"
+    "vimeo/psalm": "^4.12.0"
   },
   "config": {
     "platform": {
