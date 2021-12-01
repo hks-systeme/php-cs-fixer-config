@@ -31,6 +31,7 @@ Pick one of the rule sets:
 * [`HKS\PhpCsFixer\RuleSet\Php73`](src/RuleSet/Php73.php)
 * [`HKS\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
 * [`HKS\PhpCsFixer\RuleSet\Php80`](src/RuleSet/Php80.php)
+* [`HKS\PhpCsFixer\RuleSet\Php81`](src/RuleSet/Php81.php)
 
 Create a configuration file `.php-cs-fixer.php` in the root of your project:
 
