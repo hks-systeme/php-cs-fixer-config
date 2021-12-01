@@ -596,7 +596,12 @@ final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
         ],
         'void_return' => true,
         'whitespace_after_comma_in_array' => true,
-        'yoda_style' => false,
+        'yoda_style' => [
+            'always_move_variable' => true,
+            'equal' => true,
+            'identical' => true,
+            'less_and_greater' => true,
+        ],
     ];
     protected $targetPhpVersion = 80000;
 }
