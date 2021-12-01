@@ -6,11 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.4.0...main`][2.4.0...main].
+For a full diff see [`2.4.0...main`][2.5.0...main].
+
+## [`2.5.0`][2.5.0]
+
+For a full diff see [`2.4.0...2.5.0`][2.4.0...2.5.0].
 
 ### Changed
 
 * Added `Php81` rule set ([#164]), by [@localheinz]
+* Enabled and configured `yoda_style` fixer ([#166]), by [@localheinz]
 
 ## [`2.4.0`][2.4.0]
 
@@ -144,6 +149,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.3.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.3.0
 [2.3.1]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.3.1
 [2.4.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.4.0
+[2.5.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.5.0
 
 [3a0205c...1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...1.0.0
 [1.0.0...1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...1.0.1
@@ -156,7 +162,8 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.2.0...2.3.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.2.0...2.3.0
 [2.3.0...2.3.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.3.0...2.3.1
 [2.3.1...2.4.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.3.1...2.4.0
-[2.4.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.4.0...main
+[2.4.0...2.5.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.4.0...2.5.0
+[2.5.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.5.0...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
@@ -194,6 +201,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#150]: https://github.com/hks-systeme/php-cs-fixer-config/pull/150
 [#157]: https://github.com/hks-systeme/php-cs-fixer-config/pull/157
 [#164]: https://github.com/hks-systeme/php-cs-fixer-config/pull/164
+[#166]: https://github.com/hks-systeme/php-cs-fixer-config/pull/166
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
