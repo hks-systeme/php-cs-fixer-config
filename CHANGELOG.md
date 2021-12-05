@@ -14,8 +14,8 @@ For a full diff see [`2.4.0...2.5.0`][2.4.0...2.5.0].
 
 ### Changed
 
-* Added `Php81` rule set ([#164]), by [@localheinz]
-* Enabled and configured `yoda_style` fixer ([#166]), by [@localheinz]
+- Added `Php81` rule set ([#164]), by [@localheinz]
+- Enabled and configured `yoda_style` fixer ([#166]), by [@localheinz]
 
 ## [`2.4.0`][2.4.0]
 
@@ -23,7 +23,7 @@ For a full diff see [`2.3.1...2.4.0`][2.3.1...2.4.0].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#157]), by [@dependabot]
+- Updated `friendsofphp/php-cs-fixer` ([#157]), by [@dependabot]
 
 ## [`2.3.1`][2.3.1]
 
@@ -31,11 +31,11 @@ For a full diff see [`2.3.0...2.3.1`][2.3.0...2.3.1].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#149]), by [@dependabot]
+- Updated `friendsofphp/php-cs-fixer` ([#149]), by [@dependabot]
 
 ### Fixed
 
-* Stopped using `parameters` option for `trailing_comma_in_multiline` fixer in `Php74` rule set ([#150]), by [@localheinz]
+- Stopped using `parameters` option for `trailing_comma_in_multiline` fixer in `Php74` rule set ([#150]), by [@localheinz]
 
 ## [`2.3.0`][2.3.0]
 
@@ -43,20 +43,20 @@ For a full diff see [`2.2.0...2.3.0`][2.2.0...2.3.0].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#138]), by [@dependabot]
-* Enabled `assign_null_coalescing_to_coalesce_equal` fixer in `Php74` and `Php80` rule sets ([#140]), by [@localheinz]
-* Enabled and configured `control_structure_continuation_position` fixer ([#141]), by [@localheinz]
-* Enabled and configured `empty_loop_condition` fixer ([#142]), by [@localheinz]
-* Enabled `integer_literal_case` fixer ([#143]), by [@localheinz]
-* Enabled `modernize_strpos` fixer for `Php80` rule set ([#144]), by [@localheinz]
-* Enabled `no_space_around_double_colon` fixer ([#145]), by [@localheinz]
-* Enabled `string_length_to_empty` fixer ([#146]), by [@localheinz]
+- Updated `friendsofphp/php-cs-fixer` ([#138]), by [@dependabot]
+- Enabled `assign_null_coalescing_to_coalesce_equal` fixer in `Php74` and `Php80` rule sets ([#140]), by [@localheinz]
+- Enabled and configured `control_structure_continuation_position` fixer ([#141]), by [@localheinz]
+- Enabled and configured `empty_loop_condition` fixer ([#142]), by [@localheinz]
+- Enabled `integer_literal_case` fixer ([#143]), by [@localheinz]
+- Enabled `modernize_strpos` fixer for `Php80` rule set ([#144]), by [@localheinz]
+- Enabled `no_space_around_double_colon` fixer ([#145]), by [@localheinz]
+- Enabled `string_length_to_empty` fixer ([#146]), by [@localheinz]
 
 ### Fixed
 
-* Stopped using deprecated `use_trait` option for `no_extra_blank_lines` fixer ([#139]), by [@localheinz]
-* Explicitly configured `cast_spaces` fixer ([#147]), by [@localheinz]
-* Explicitly configured `constant_case` fixer ([#148]), by [@localheinz]
+- Stopped using deprecated `use_trait` option for `no_extra_blank_lines` fixer ([#139]), by [@localheinz]
+- Explicitly configured `cast_spaces` fixer ([#147]), by [@localheinz]
+- Explicitly configured `constant_case` fixer ([#148]), by [@localheinz]
 
 ## [`2.2.0`][2.2.0]
 
@@ -64,7 +64,7 @@ For a full diff see [`2.1.0...2.2.0`][2.1.0...2.2.0].
 
 ### Changed
 
-* Configured `class_attributes_separation` fixer to use `only_if_meta` option for element `trait_import` ([#132]), by [@localheinz]
+- Configured `class_attributes_separation` fixer to use `only_if_meta` option for element `trait_import` ([#132]), by [@localheinz]
 
 ## [`2.1.0`][2.1.0]
 
@@ -72,14 +72,14 @@ For a full diff see [`2.0.0...2.1.0`][2.0.0...2.1.0].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#121]), by [@dependabot]
-* Enabled `declare_parentheses` fixer ([#125]), by [@localheinz]
-* Enabled and configured `empty_loop_body` fixer ([#126]), by [@localheinz]
-* Enabled and configured `types_spaces` fixer ([#127]), by [@localheinz]
-* Configured `class_attributes_separation` fixer to use newly added `only_if_meta` option for elements `const` and `property` ([#128]), by [@localheinz]
-* Configured `class_attributes_separation` fixer to use `none` option for element `trait_import` ([#129]), by [@localheinz]
-* Added `template` to `ignored_tags` configuration of `doctrine_*` fixers ([#130]), by [@localheinz]
-* Configured `single_space_after_construct` fixer to enforce single space after additional constructs ([#131]), by [@localheinz]
+- Updated `friendsofphp/php-cs-fixer` ([#121]), by [@dependabot]
+- Enabled `declare_parentheses` fixer ([#125]), by [@localheinz]
+- Enabled and configured `empty_loop_body` fixer ([#126]), by [@localheinz]
+- Enabled and configured `types_spaces` fixer ([#127]), by [@localheinz]
+- Configured `class_attributes_separation` fixer to use newly added `only_if_meta` option for elements `const` and `property` ([#128]), by [@localheinz]
+- Configured `class_attributes_separation` fixer to use `none` option for element `trait_import` ([#129]), by [@localheinz]
+- Added `template` to `ignored_tags` configuration of `doctrine_*` fixers ([#130]), by [@localheinz]
+- Configured `single_space_after_construct` fixer to enforce single space after additional constructs ([#131]), by [@localheinz]
 
 ## [`2.0.0`][2.0.0]
 
@@ -87,9 +87,9 @@ For a full diff see [`1.1.0...2.0.0`][1.1.0...2.0.0].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#71]), by [@localheinz]
-* Configured `trailing_comma_in_multiline` fixer to add trailing commas for arguments in `Php73`, `Php74`, and `Php80` rule sets ([#74]), by [@localheinz]
-* Configured `trailing_comma_in_multiline` fixer to add trailing commas for parameters in `Php80` rule set ([#75]), by [@localheinz]
+- Updated `friendsofphp/php-cs-fixer` ([#71]), by [@localheinz]
+- Configured `trailing_comma_in_multiline` fixer to add trailing commas for arguments in `Php73`, `Php74`, and `Php80` rule sets ([#74]), by [@localheinz]
+- Configured `trailing_comma_in_multiline` fixer to add trailing commas for parameters in `Php80` rule set ([#75]), by [@localheinz]
 
 ## [`1.1.0`][1.1.0]
 
@@ -97,7 +97,7 @@ For a full diff see [`1.0.3...1.1.0`][1.0.3...1.1.0].
 
 ### Changed
 
-* Updated `friendsofphp/php-cs-fixer` ([#67]), by [@dependabot]
+- Updated `friendsofphp/php-cs-fixer` ([#67]), by [@dependabot]
 
 ## [`1.0.3`][1.0.3]
 
@@ -105,7 +105,7 @@ For a full diff see [`1.0.2...1.0.3`][1.0.2...1.0.3].
 
 ### Fixed
 
-* Updated `friendsofphp/php-cs-fixer` ([#59]), by [@dependabot]
+- Updated `friendsofphp/php-cs-fixer` ([#59]), by [@dependabot]
 
 ## [`1.0.2`][1.0.2]
 
@@ -113,7 +113,7 @@ For a full diff see [`1.0.1...1.0.2`][1.0.1...1.0.2].
 
 ### Fixed
 
-* Updated `friendsofphp/php-cs-fixer` ([#51]), by [@dependabot]
+- Updated `friendsofphp/php-cs-fixer` ([#51]), by [@dependabot]
 
 ## [`1.0.1`][1.0.1]
 
@@ -121,8 +121,8 @@ For a full diff see [`1.0.0...1.0.1`][1.0.0...1.0.1].
 
 ### Fixed
 
-* Stopped using deprecated configuration for `class_attributes_separation` fixer ([#15]), by [@localheinz]
-* Updated `friendsofphp/php-cs-fixer` ([#41]), by [@dependabot]
+- Stopped using deprecated configuration for `class_attributes_separation` fixer ([#15]), by [@localheinz]
+- Updated `friendsofphp/php-cs-fixer` ([#41]), by [@dependabot]
 
 ## [`1.0.0`][1.0.0]
 
@@ -130,13 +130,13 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 
 ### Added
 
-* Added `Php80` ([#4]), by [@localheinz]
-* Added `Php71`, `Php72`, `Php73`, and `Php74` ([#1]), by [@localheinz]
+- Added `Php80` ([#4]), by [@localheinz]
+- Added `Php71`, `Php72`, `Php73`, and `Php74` ([#1]), by [@localheinz]
 
 ### Changed
 
-* Configured `no_whitespace_before_comma_in_array` fixer to remove whitespace between heredoc and comma ([#5]), by [@localheinz]
-* Configured `trailing_comma_in_multiline_array` fixer to add a trailing comma after heredoc in multi-line array ([#6]), by [@localheinz]
+- Configured `no_whitespace_before_comma_in_array` fixer to remove whitespace between heredoc and comma ([#5]), by [@localheinz]
+- Configured `trailing_comma_in_multiline_array` fixer to add a trailing comma after heredoc in multi-line array ([#6]), by [@localheinz]
 
 [1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.0
 [1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/1.0.1

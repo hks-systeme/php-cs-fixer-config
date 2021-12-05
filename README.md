@@ -26,12 +26,12 @@ $ composer require --dev hks-systeme/php-cs-fixer-config
 
 Pick one of the rule sets:
 
-* [`HKS\PhpCsFixer\RuleSet\Php71`](src/RuleSet/Php71.php)
-* [`HKS\PhpCsFixer\RuleSet\Php72`](src/RuleSet/Php72.php)
-* [`HKS\PhpCsFixer\RuleSet\Php73`](src/RuleSet/Php73.php)
-* [`HKS\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
-* [`HKS\PhpCsFixer\RuleSet\Php80`](src/RuleSet/Php80.php)
-* [`HKS\PhpCsFixer\RuleSet\Php81`](src/RuleSet/Php81.php)
+- [`HKS\PhpCsFixer\RuleSet\Php71`](src/RuleSet/Php71.php)
+- [`HKS\PhpCsFixer\RuleSet\Php72`](src/RuleSet/Php72.php)
+- [`HKS\PhpCsFixer\RuleSet\Php73`](src/RuleSet/Php73.php)
+- [`HKS\PhpCsFixer\RuleSet\Php74`](src/RuleSet/Php74.php)
+- [`HKS\PhpCsFixer\RuleSet\Php80`](src/RuleSet/Php80.php)
+- [`HKS\PhpCsFixer\RuleSet\Php81`](src/RuleSet/Php81.php)
 
 Create a configuration file `.php-cs-fixer.php` in the root of your project:
 
@@ -93,12 +93,12 @@ file headers will be added to PHP files, for example:
 <?php
 
 /**
- * Copyright (c) 2021 HKS Systeme GmbH
+ - Copyright (c) 2021 HKS Systeme GmbH
  *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
+ - For the full copyright and license information, please view
+ - the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/hks-systeme/php-cs-fixer-config
+ - @see https://github.com/hks-systeme/php-cs-fixer-config
  */
 ```
 
