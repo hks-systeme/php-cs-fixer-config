@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.4.0...main`][2.5.0...main].
+For a full diff see [`2.6.0...main`][2.6.0...main].
+
+## [`2.6.0`][2.6.0]
+
+For a full diff see [`2.5.0...2.6.0`][2.5.0...2.6.0].
 
 ### Changed
 
@@ -154,6 +158,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.3.1]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.3.1
 [2.4.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.4.0
 [2.5.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.5.0
+[2.6.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.6.0
 
 [3a0205c...1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...1.0.0
 [1.0.0...1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...1.0.1
@@ -167,7 +172,8 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.3.0...2.3.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.3.0...2.3.1
 [2.3.1...2.4.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.3.1...2.4.0
 [2.4.0...2.5.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.4.0...2.5.0
-[2.5.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.5.0...main
+[2.5.0...2.6.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.5.0...2.6.0
+[2.6.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.6.0...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
