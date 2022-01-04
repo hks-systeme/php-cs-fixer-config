@@ -2,8 +2,9 @@
 
 [![Integrate](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Integrate/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 [![Prune](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Prune/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
-[![Renew](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Renew/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 [![Release](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Release/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
+[![Renew](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Renew/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
+[![Triage](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Triage/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 
 [![Code Coverage](https://codecov.io/gh/hks-systeme/php-cs-fixer-config/branch/main/graph/badge.svg)](https://codecov.io/gh/hks-systeme/php-cs-fixer-config)
 [![Type Coverage](https://shepherd.dev/github/hks-systeme/php-cs-fixer-config/coverage.svg)](https://shepherd.dev/github/hks-systeme/php-cs-fixer-config)
