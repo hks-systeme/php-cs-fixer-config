@@ -1,6 +1,7 @@
 # php-cs-fixer-config
 
 [![Integrate](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Integrate/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
+[![Merge](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Merge/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 [![Prune](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Prune/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 [![Release](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Release/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
 [![Renew](https://github.com/hks-systeme/php-cs-fixer-config/workflows/Renew/badge.svg)](https://github.com/hks-systeme/php-cs-fixer-config/actions)
