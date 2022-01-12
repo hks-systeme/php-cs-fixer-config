@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.6.0...main`][2.6.0...main].
 
+### Changed
+
+- Dropped support for PHP 7.2 ([#191]), by [@localheinz]
+
 ### Removed
 
 - Removed `Php71` rule set ([#190]), by [@localheinz]
@@ -218,6 +222,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#166]: https://github.com/hks-systeme/php-cs-fixer-config/pull/166
 [#175]: https://github.com/hks-systeme/php-cs-fixer-config/pull/175
 [#190]: https://github.com/hks-systeme/php-cs-fixer-config/pull/190
+[#191]: https://github.com/hks-systeme/php-cs-fixer-config/pull/191
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
