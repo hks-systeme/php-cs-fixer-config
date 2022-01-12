@@ -17,6 +17,7 @@ For a full diff see [`2.6.0...main`][2.6.0...main].
 
 - Removed `Php71` rule set ([#190]), by [@localheinz]
 - Removed `Php72` rule set ([#193]), by [@localheinz]
+- Removed `Php73` rule set ([#196]), by [@localheinz]
 
 ## [`2.6.0`][2.6.0]
 
@@ -226,6 +227,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#190]: https://github.com/hks-systeme/php-cs-fixer-config/pull/190
 [#191]: https://github.com/hks-systeme/php-cs-fixer-config/pull/191
 [#193]: https://github.com/hks-systeme/php-cs-fixer-config/pull/193
+[#196]: https://github.com/hks-systeme/php-cs-fixer-config/pull/196
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
