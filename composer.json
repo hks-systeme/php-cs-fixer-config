@@ -15,7 +15,7 @@
     "source": "https://github.com/hks-systeme/php-cs-fixer-config"
   },
   "require": {
-    "php": "^7.2 || ^8.0",
+    "php": "^7.3 || ^8.0",
     "friendsofphp/php-cs-fixer": "~3.4.0"
   },
   "require-dev": {
@@ -42,7 +42,7 @@
       "ergebnis/composer-normalize": true
     },
     "platform": {
-      "php": "7.2.33"
+      "php": "7.3.32"
     },
     "preferred-install": "dist",
     "sort-packages": true
