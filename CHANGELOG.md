@@ -11,6 +11,7 @@ For a full diff see [`2.6.0...main`][2.6.0...main].
 ### Changed
 
 - Dropped support for PHP 7.2 ([#191]), by [@localheinz]
+- Dropped support for PHP 7.3 ([#194]), by [@localheinz]
 
 ### Removed
 
