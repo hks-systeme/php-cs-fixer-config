@@ -10,6 +10,7 @@ For a full diff see [`2.7.0...main`][2.7.0...main].
 
 ### Changed
 
+- Enabled `get_class_to_class_keyword` fixer ([#204]), by [@localheinz]
 - Updated `friendsofphp/php-cs-fixer` ([#202]), by [@dependabot]
 
 ## [`2.7.0`][2.7.0]
@@ -239,6 +240,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#193]: https://github.com/hks-systeme/php-cs-fixer-config/pull/193
 [#196]: https://github.com/hks-systeme/php-cs-fixer-config/pull/196
 [#202]: https://github.com/hks-systeme/php-cs-fixer-config/pull/202
+[#204]: https://github.com/hks-systeme/php-cs-fixer-config/pull/204
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
