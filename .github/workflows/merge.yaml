@@ -24,71 +24,24 @@ jobs:
       )
 
     steps:
-
       - name: "Request review from @hks-systeme-bot"
-        uses: "actions/github-script@v5"
+        uses: "hks-systeme/.github/actions/github/pull-request/request-review@1.1.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
-          script: |
-            const pullRequest = context.payload.workflow_run.pull_requests[0]
-            const repository = context.repo
-
-            const reviewers = [
-              "hks-systeme-bot",
-            ]
-
-            await github.rest.pulls.requestReviewers({
-              owner: repository.owner,
-              repo: repository.repo,
-              pull_number: pullRequest.number,
-              reviewers: reviewers,
-            })
+          reviewer: "hks-systeme-bot"
 
       - name: "Assign @hks-systeme-bot"
-        uses: "actions/github-script@v5"
+        uses: "hks-systeme/.github/actions/github/pull-request/add-assignee@1.1.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
-          script: |
-            const pullRequest = context.payload.workflow_run.pull_requests[0]
-            const repository = context.repo
-
-            const assignees = [
-              "hks-systeme-bot",
-            ]
-
-            await github.rest.issues.addAssignees({
-              owner: repository.owner,
-              repo: repository.repo,
-              assignees: assignees,
-              issue_number: pullRequest.number
-            })
+          assignee: "hks-systeme-bot"
 
       - name: "Approve pull request"
-        uses: "actions/github-script@v5"
+        uses: "hks-systeme/.github/actions/github/pull-request/approve@1.1.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
-          script: |
-            const pullRequest = context.payload.workflow_run.pull_requests[0]
-            const repository = context.repo
-
-            await github.rest.pulls.createReview({
-              event: "APPROVE",
-              owner: repository.owner,
-              repo: repository.repo,
-              pull_number: pullRequest.number,
-            })
 
       - name: "Merge pull request"
-        uses: "actions/github-script@v5"
+        uses: "hks-systeme/.github/actions/github/pull-request/merge@1.1.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
-          script: |
-            const pullRequest = context.payload.workflow_run.pull_requests[0]
-            const repository = context.repo
-
-            await github.rest.pulls.merge({
-              merge_method: "merge",
-              owner: repository.owner,
-              pull_number: pullRequest.number,
-              repo: repository.repo,
-            })
