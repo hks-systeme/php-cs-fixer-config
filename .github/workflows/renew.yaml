@@ -40,7 +40,7 @@ jobs:
         run: "composer validate"
 
       - name: "Determine composer cache directory"
-        uses: "hks-systeme/.github/actions/composer/determine-cache-directory@1.1.0"
+        uses: "hks-systeme/.github/actions/composer/determine-cache-directory@1.2.0"
 
       - name: "Cache dependencies installed with composer"
         uses: "actions/cache@v2.1.7"
@@ -50,7 +50,7 @@ jobs:
           restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
       - name: "Install ${{ matrix.dependencies }} dependencies with composer"
-        uses: "hks-systeme/.github/actions/composer/install@1.1.0"
+        uses: "hks-systeme/.github/actions/composer/install@1.2.0"
         with:
           dependencies: "${{ matrix.dependencies }}"
 
