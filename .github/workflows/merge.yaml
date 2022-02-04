@@ -25,23 +25,23 @@ jobs:
 
     steps:
       - name: "Request review from @hks-systeme-bot"
-        uses: "hks-systeme/.github/actions/github/pull-request/request-review@1.2.0"
+        uses: "hks-systeme/.github/actions/github/pull-request/request-review@1.3.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
           reviewer: "hks-systeme-bot"
 
       - name: "Assign @hks-systeme-bot"
-        uses: "hks-systeme/.github/actions/github/pull-request/add-assignee@1.2.0"
+        uses: "hks-systeme/.github/actions/github/pull-request/add-assignee@1.3.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
           assignee: "hks-systeme-bot"
 
       - name: "Approve pull request"
-        uses: "hks-systeme/.github/actions/github/pull-request/approve@1.2.0"
+        uses: "hks-systeme/.github/actions/github/pull-request/approve@1.3.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
 
       - name: "Merge pull request"
-        uses: "hks-systeme/.github/actions/github/pull-request/merge@1.2.0"
+        uses: "hks-systeme/.github/actions/github/pull-request/merge@1.3.0"
         with:
           github-token: "${{ secrets.HKS_SYSTEME_BOT_TOKEN }}"
