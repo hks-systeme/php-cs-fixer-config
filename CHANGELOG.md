@@ -6,12 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.8.0...main`][2.8.0...main].
+For a full diff see [`2.9.0...main`][2.9.0...main].
+
+## [`2.9.0`][2.9.0]
+
+For a full diff see [`2.8.0...2.9.0`][2.8.0...2.9.0].
 
 ### Changed
 
 - Updated `friendsofphp/php-cs-fixer` ([#218]), by [@dependabot]
 - Enabled `class_reference_name_casing` fixer ([#219]), by [@localheinz]
+- Enabled `no_unneeded_import_alias` fixer ([#220]), by [@localheinz]
 
 ## [`2.8.0`][2.8.0]
 
@@ -189,7 +194,8 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.5.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.5.0
 [2.6.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.6.0
 [2.7.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.7.0
-[2.9.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.8.0
+[2.8.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.8.0
+[2.9.0]: https://github.com/hks-systeme/php-cs-fixer-config/releases/tag/2.9.0
 
 [3a0205c...1.0.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/3a0205c...1.0.0
 [1.0.0...1.0.1]: https://github.com/hks-systeme/php-cs-fixer-config/compare/1.0.0...1.0.1
@@ -206,7 +212,8 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [2.5.0...2.6.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.5.0...2.6.0
 [2.6.0...2.7.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.6.0...2.7.0
 [2.7.0...2.8.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.7.0...2.8.0
-[2.8.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.8.0...main
+[2.8.0...2.9.0]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.8.0...2.9.0
+[2.9.0...main]: https://github.com/hks-systeme/php-cs-fixer-config/compare/2.9.0...main
 
 [#1]: https://github.com/hks-systeme/php-cs-fixer-config/pull/1
 [#4]: https://github.com/hks-systeme/php-cs-fixer-config/pull/4
@@ -254,6 +261,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#204]: https://github.com/hks-systeme/php-cs-fixer-config/pull/204
 [#218]: https://github.com/hks-systeme/php-cs-fixer-config/pull/218
 [#219]: https://github.com/hks-systeme/php-cs-fixer-config/pull/219
+[#220]: https://github.com/hks-systeme/php-cs-fixer-config/pull/220
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
