@@ -297,7 +297,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
             'namespaces' => true,
         ],
         'no_unneeded_final_method' => true,
-        'no_unneeded_import_alias' => false,
+        'no_unneeded_import_alias' => true,
         'no_unreachable_default_argument_value' => true,
         'no_unset_cast' => true,
         'no_unset_on_property' => false,

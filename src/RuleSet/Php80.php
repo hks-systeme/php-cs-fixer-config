@@ -291,7 +291,7 @@ final class Php80 extends AbstractRuleSet implements ExplicitRuleSet
             'namespaces' => true,
         ],
         'no_unneeded_final_method' => true,
-        'no_unneeded_import_alias' => false,
+        'no_unneeded_import_alias' => true,
         'no_unreachable_default_argument_value' => true,
         'no_unset_cast' => true,
         'no_unset_on_property' => false,
