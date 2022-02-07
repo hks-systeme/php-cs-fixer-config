@@ -11,6 +11,7 @@ For a full diff see [`2.8.0...main`][2.8.0...main].
 ### Changed
 
 - Updated `friendsofphp/php-cs-fixer` ([#218]), by [@dependabot]
+- Enabled `class_reference_name_casing` fixer ([#219]), by [@localheinz]
 
 ## [`2.8.0`][2.8.0]
 
@@ -252,6 +253,7 @@ For a full diff see [`3a0205c...1.0.0`][3a0205c...1.0.0].
 [#202]: https://github.com/hks-systeme/php-cs-fixer-config/pull/202
 [#204]: https://github.com/hks-systeme/php-cs-fixer-config/pull/204
 [#218]: https://github.com/hks-systeme/php-cs-fixer-config/pull/218
+[#219]: https://github.com/hks-systeme/php-cs-fixer-config/pull/219
 
 [@dependabot]: https://github.com/apps/dependabot
 [@localheinz]: https://github.com/localheinz
