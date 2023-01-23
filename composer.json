@@ -24,7 +24,7 @@
     "ergebnis/test-util": "^1.6.0",
     "phpunit/phpunit": "^9.5.28",
     "psalm/plugin-phpunit": "~0.18.4",
-    "vimeo/psalm": "^5.4"
+    "vimeo/psalm": "^5.5"
   },
   "autoload": {
     "psr-4": {
