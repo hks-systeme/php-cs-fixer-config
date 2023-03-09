@@ -22,7 +22,7 @@
     "ergebnis/composer-normalize": "^2.28.3",
     "ergebnis/license": "^2.0.0",
     "ergebnis/test-util": "^1.6.0",
-    "phpunit/phpunit": "^9.6.4",
+    "phpunit/phpunit": "^9.6.5",
     "psalm/plugin-phpunit": "~0.18.4",
     "vimeo/psalm": "^5.7"
   },
