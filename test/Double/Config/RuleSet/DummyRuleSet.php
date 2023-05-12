@@ -23,7 +23,7 @@ final class DummyRuleSet implements Config\RuleSet
     private $name;
 
     /**
-     * @var array<string, array|bool>
+     * @var array<string, array<string,mixed>|bool>
      */
     private $rules;
 
@@ -33,7 +33,7 @@ final class DummyRuleSet implements Config\RuleSet
     private $phpVersion;
 
     /**
-     * @param array<string, array|bool> $rules
+     * @param array<string, array<string,mixed>|bool> $rules
      */
     public function __construct(string $name, array $rules, int $phpVersion)
     {
