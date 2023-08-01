@@ -281,7 +281,6 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
             'allow_unused_params' => false,
             'remove_inheritdoc' => true,
         ],
-        'no_trailing_comma_in_singleline_array' => true,
         'no_trailing_comma_in_singleline' => true,
         'no_trailing_whitespace' => true,
         'no_trailing_whitespace_in_comment' => true,
