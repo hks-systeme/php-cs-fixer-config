@@ -253,7 +253,6 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'no_binary_string' => true,
         'no_blank_lines_after_class_opening' => true,
         'no_blank_lines_after_phpdoc' => true,
-        'no_blank_lines_before_namespace' => false,
         'no_break_comment' => true,
         'no_closing_tag' => true,
         'no_empty_comment' => true,
