@@ -309,6 +309,7 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
         'normalize_index_brace' => true,
         'not_operator_with_space' => false,
         'not_operator_with_successor_space' => false,
+        'nullable_type_declaration' => false,
         'nullable_type_declaration_for_default_null_value' => true,
         'object_operator_without_whitespace' => true,
         'octal_notation' => true,
@@ -330,7 +331,10 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
             'order' => 'alpha',
         ],
         'ordered_traits' => true,
+        'ordered_types' => false,
         'php_unit_construct' => true,
+        'php_unit_data_provider_name' => false,
+        'php_unit_data_provider_return_type' => false,
         'php_unit_data_provider_static' => false,
         'php_unit_dedicate_assert' => [
             'target' => 'newest',
@@ -433,6 +437,7 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
                 'uses',
             ],
         ],
+        'phpdoc_param_order' => false,
         'phpdoc_return_self_reference' => true,
         'phpdoc_scalar' => true,
         'phpdoc_separation' => true,
@@ -499,6 +504,7 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
                 'hash',
             ],
         ],
+        'single_line_empty_body' => false,
         'single_line_throw' => false,
         'single_quote' => true,
         'single_space_around_construct' => [
@@ -617,6 +623,7 @@ final class Php81 extends AbstractRuleSet implements ExplicitRuleSet
         ],
         'void_return' => true,
         'whitespace_after_comma_in_array' => true,
+        'yield_from_array_to_yields' => false,
         'yoda_style' => [
             'always_move_variable' => true,
             'equal' => true,
