@@ -22,6 +22,7 @@ namespace HKS\PhpCsFixer\Config\Test\Unit\RuleSet;
 final class Php80Test extends ExplicitRuleSetTestCase
 {
     protected $name = 'hks (PHP 8.0)';
+    protected $targetPhpVersion = 80000;
     protected $rules = [
         'align_multiline_comment' => [
             'comment_type' => 'all_multiline',
@@ -315,6 +316,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
         'normalize_index_brace' => true,
         'not_operator_with_space' => false,
         'not_operator_with_successor_space' => false,
+        'nullable_type_declaration' => false,
         'nullable_type_declaration_for_default_null_value' => true,
         'object_operator_without_whitespace' => true,
         'octal_notation' => false,
@@ -336,7 +338,10 @@ final class Php80Test extends ExplicitRuleSetTestCase
             'order' => 'alpha',
         ],
         'ordered_traits' => true,
+        'ordered_types' => false,
         'php_unit_construct' => true,
+        'php_unit_data_provider_name' => false,
+        'php_unit_data_provider_return_type' => false,
         'php_unit_data_provider_static' => false,
         'php_unit_dedicate_assert' => [
             'target' => 'newest',
@@ -439,6 +444,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
                 'uses',
             ],
         ],
+        'phpdoc_param_order' => false,
         'phpdoc_return_self_reference' => true,
         'phpdoc_scalar' => true,
         'phpdoc_separation' => true,
@@ -505,6 +511,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
                 'hash',
             ],
         ],
+        'single_line_empty_body' => false,
         'single_line_throw' => false,
         'single_quote' => true,
         'single_space_around_construct' => [
@@ -623,6 +630,7 @@ final class Php80Test extends ExplicitRuleSetTestCase
         ],
         'void_return' => true,
         'whitespace_after_comma_in_array' => true,
+        'yield_from_array_to_yields' => false,
         'yoda_style' => [
             'always_move_variable' => true,
             'equal' => true,
@@ -630,5 +638,4 @@ final class Php80Test extends ExplicitRuleSetTestCase
             'less_and_greater' => true,
         ],
     ];
-    protected $targetPhpVersion = 80000;
 }
