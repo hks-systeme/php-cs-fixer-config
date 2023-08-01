@@ -516,8 +516,11 @@ final class Php80Test extends ExplicitRuleSetTestCase
         ],
         'single_line_throw' => false,
         'single_quote' => true,
-        'single_space_after_construct' => [
-            'constructs' => [
+        'single_space_around_construct' => [
+            'constructs_contain_a_single_space' => [
+                'yield_from',
+            ],
+            'constructs_followed_by_a_single_space' => [
                 'abstract',
                 'as',
                 'attribute',
@@ -575,6 +578,10 @@ final class Php80Test extends ExplicitRuleSetTestCase
                 'while',
                 'yield',
                 'yield_from',
+            ],
+            'constructs_preceded_by_a_single_space' => [
+                'as',
+                'use_lambda',
             ],
         ],
         'single_trait_insert_per_statement' => true,
