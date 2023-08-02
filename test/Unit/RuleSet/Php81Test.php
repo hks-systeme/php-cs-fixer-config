@@ -63,12 +63,10 @@ final class Php81Test extends ExplicitRuleSetTestCase
                 'yield',
             ],
         ],
-        'braces' => [
-            'allow_single_line_anonymous_class_with_empty_body' => false,
-            'allow_single_line_closure' => false,
-            'position_after_anonymous_constructs' => 'same',
-            'position_after_control_structures' => 'same',
-            'position_after_functions_and_oop_constructs' => 'next',
+        'blank_line_between_import_groups' => false,
+        'blank_lines_before_namespace' => [
+            'max_line_breaks' => 2,
+            'min_line_breaks' => 2,
         ],
         'cast_spaces' => [
             'space' => 'single',
@@ -82,6 +80,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
             ],
         ],
         'class_definition' => [
+            'inline_constructor_arguments' => true,
             'multi_line_extends_each_single_line' => false,
             'single_item_single_line' => false,
             'single_line' => true,
@@ -100,9 +99,12 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'constant_case' => [
             'case' => 'lower',
         ],
+        'control_structure_braces' => false,
         'control_structure_continuation_position' => [
             'position' => 'same_line',
         ],
+        'curly_braces_position' => false,
+        'date_time_create_from_format_call' => false,
         'date_time_immutable' => false,
         'declare_equal_normalize' => true,
         'declare_parentheses' => true,
@@ -166,7 +168,6 @@ final class Php81Test extends ExplicitRuleSetTestCase
                 'pi',
             ],
         ],
-        'function_typehint_space' => true,
         'general_phpdoc_annotation_remove' => false,
         'general_phpdoc_tag_rename' => [
             'case_sensitive' => false,
@@ -244,7 +245,6 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'no_binary_string' => true,
         'no_blank_lines_after_class_opening' => true,
         'no_blank_lines_after_phpdoc' => true,
-        'no_blank_lines_before_namespace' => false,
         'no_break_comment' => true,
         'no_closing_tag' => true,
         'no_empty_comment' => true,
@@ -273,6 +273,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
             'use' => 'echo',
         ],
         'no_multiline_whitespace_around_double_arrow' => true,
+        'no_multiple_statements_per_line' => false,
         'no_null_property_initialization' => true,
         'no_php4_constructor' => false,
         'no_short_bool_cast' => true,
@@ -287,8 +288,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
             'allow_unused_params' => false,
             'remove_inheritdoc' => true,
         ],
-        'no_trailing_comma_in_list_call' => true,
-        'no_trailing_comma_in_singleline_array' => true,
+        'no_trailing_comma_in_singleline' => true,
         'no_trailing_whitespace' => true,
         'no_trailing_whitespace_in_comment' => true,
         'no_trailing_whitespace_in_string' => true,
@@ -302,7 +302,9 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'no_unset_cast' => true,
         'no_unset_on_property' => false,
         'no_unused_imports' => true,
+        'no_useless_concat_operator' => false,
         'no_useless_else' => true,
+        'no_useless_nullsafe_operator' => false,
         'no_useless_return' => true,
         'no_useless_sprintf' => true,
         'no_whitespace_before_comma_in_array' => [
@@ -313,6 +315,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'normalize_index_brace' => true,
         'not_operator_with_space' => false,
         'not_operator_with_successor_space' => false,
+        'nullable_type_declaration' => false,
         'nullable_type_declaration_for_default_null_value' => true,
         'object_operator_without_whitespace' => true,
         'octal_notation' => true,
@@ -334,7 +337,11 @@ final class Php81Test extends ExplicitRuleSetTestCase
             'order' => 'alpha',
         ],
         'ordered_traits' => true,
+        'ordered_types' => false,
         'php_unit_construct' => true,
+        'php_unit_data_provider_name' => false,
+        'php_unit_data_provider_return_type' => false,
+        'php_unit_data_provider_static' => false,
         'php_unit_dedicate_assert' => [
             'target' => 'newest',
         ],
@@ -436,6 +443,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
                 'uses',
             ],
         ],
+        'phpdoc_param_order' => false,
         'phpdoc_return_self_reference' => true,
         'phpdoc_scalar' => true,
         'phpdoc_separation' => true,
@@ -488,7 +496,6 @@ final class Php81Test extends ExplicitRuleSetTestCase
         'simplified_if_return' => false,
         'simplified_null_return' => false,
         'single_blank_line_at_eof' => true,
-        'single_blank_line_before_namespace' => true,
         'single_class_element_per_statement' => [
             'elements' => [
                 'const',
@@ -497,15 +504,20 @@ final class Php81Test extends ExplicitRuleSetTestCase
         ],
         'single_import_per_statement' => true,
         'single_line_after_imports' => true,
+        'single_line_comment_spacing' => false,
         'single_line_comment_style' => [
             'comment_types' => [
                 'hash',
             ],
         ],
+        'single_line_empty_body' => false,
         'single_line_throw' => false,
         'single_quote' => true,
-        'single_space_after_construct' => [
-            'constructs' => [
+        'single_space_around_construct' => [
+            'constructs_contain_a_single_space' => [
+                'yield_from',
+            ],
+            'constructs_followed_by_a_single_space' => [
                 'abstract',
                 'as',
                 'attribute',
@@ -564,6 +576,10 @@ final class Php81Test extends ExplicitRuleSetTestCase
                 'yield',
                 'yield_from',
             ],
+            'constructs_preceded_by_a_single_space' => [
+                'as',
+                'use_lambda',
+            ],
         ],
         'single_trait_insert_per_statement' => true,
         'space_after_semicolon' => [
@@ -571,6 +587,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
         ],
         'standardize_increment' => true,
         'standardize_not_equals' => true,
+        'statement_indentation' => false,
         'static_lambda' => true,
         'strict_comparison' => false,
         'strict_param' => false,
@@ -591,8 +608,15 @@ final class Php81Test extends ExplicitRuleSetTestCase
             ],
         ],
         'trim_array_spaces' => true,
+        'type_declaration_spaces' => [
+            'elements' => [
+                'function',
+                'property',
+            ],
+        ],
         'types_spaces' => [
             'space' => 'none',
+            'space_multiple_catch' => null,
         ],
         'unary_operator_spaces' => true,
         'use_arrow_functions' => false,
@@ -605,6 +629,7 @@ final class Php81Test extends ExplicitRuleSetTestCase
         ],
         'void_return' => true,
         'whitespace_after_comma_in_array' => true,
+        'yield_from_array_to_yields' => false,
         'yoda_style' => [
             'always_move_variable' => true,
             'equal' => true,
